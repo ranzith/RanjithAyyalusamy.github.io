@@ -5,7 +5,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
  </head>
  <body>
- 
+ <span>
  <?php  
 $myfile = "new7.txt";  
 if (is_readable($myfile))  
@@ -19,6 +19,7 @@ else
     echo '$myfile is not readable'; 
 } 
 ?>
+</span>
 
   <div class="container">
    <div class="table-responsive">
