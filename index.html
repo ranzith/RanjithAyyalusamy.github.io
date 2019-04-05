@@ -5,6 +5,21 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
  </head>
  <body>
+ 
+ <?php  
+$myfile = "new7.txt";  
+if (is_readable($myfile))  
+{ 
+    readfile($myfile); 
+}
+  
+else 
+
+{ 
+    echo '$myfile is not readable'; 
+} 
+?>
+
   <div class="container">
    <div class="table-responsive">
     <br />
